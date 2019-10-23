@@ -1,3 +1,4 @@
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 <nav>
     {% for item in site.data.navigation %}
         <a href="{{ site.baseurl }}{{ item.link }}" {% if page.url == item.link %} style="color: red;" {% endif %}>{{ item.name }}</a>

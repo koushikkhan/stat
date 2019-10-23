@@ -3,10 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
     </head>
     <body>
-        {% include navigation.html %}
+        <!-- {% include navigation.html %} -->
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/blog">Posts</a></li>
+                <li><a href="/resume">Resume</a></li>
+                <li><a href="/about">About</a></li>
+            </ul>
+        </nav>
         {{ content }}
+        <footer>
+            <ul>
+                <li><a href="mailto:research.ml.koushik@gmail.com">Email</a></li>
+                <li><a href="https://github.com/koushikkhan">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/koushikkhan">LinkedIn</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
