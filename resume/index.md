@@ -4,4 +4,4 @@ title: cv
 use_math: false
 ---
 
-Download my resume as [pdf](/assets/pdf/resume_koushik_ibm.pdf)
+Download my resume as [pdf]({{ site.baseurl }}/assets/pdf/resume_koushik_ibm.pdf)

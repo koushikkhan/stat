@@ -67,7 +67,7 @@ I will try to relate the definitions with couple of examples:
 + This one is going to be of great impotance for the society. We know that 
   almost every country has their own military radar system to detect any missilies aimed at them. Assume that, the null hypothesis is *the enemy is in war mode, they will attack*. Now, could you imagine the situation, if the military radar system would have failed to detect the missiles that had been aimed at your country and they were few miles away from their target...the lives of innocent citizens would have been devastated.
 
-  ![fig-1](/assets/img/radar_not_detecting.png?style=centerme)
+  ![fig-1]({{ site.baseurl }}/assets/img/radar_not_detecting.png?style=centerme)
 
 Having understood the importance of Type-I error in decision making, the usual tendency of the experimenter is to keep the chance of making Type-I error fixed at a very low level, which, by years of research and experimentations, has been chosen as 1% or 5%, depending on the situation.
 
@@ -86,7 +86,7 @@ Instead of $$\bar{X}$$, we are going to take $$\frac{\bar{X} - \mu_0}{\sqrt{\fra
 
 To compute a universal threshold or cut-off point ($$\tau_{\alpha}$$), $$\alpha$$ is first kept fixed at a certain level, usually 0.01 or 0.05, then a quantile value is computed such that beyond the quantile area under the curve is equal to $$\alpha$$. The figure, given below, will make the idea clear.
 
-![fig-2](/assets/img/cutoff.jpg?style=centerme)
+![fig-2]({{ site.baseurl }}/assets/img/cutoff.jpg?style=centerme)
 
 As we can see in the above figure, the universal cut-off is 2.32. Now we are in a situation to make a decision. If the realization of $$\frac{\bar{X} - \mu_0}{\sqrt{\frac{\sigma^2}{n}}}$$ is more than $$\tau_{\alpha}=2.32$$, then
 we can say that the data is not supporting $$H_0$$, hence we should reject it, otherwise we can accept $$H_0$$.
@@ -99,7 +99,7 @@ The decision we made in the last section, was based on a threshold or a cut-off 
 
 The second one is computed as the area under the density curve beyond the observed value of the statistic $$z^{\star}$$ i.e. $$p = P\left[Z > z^{\star}\right]$$, considering null hypothesis to be true, where $$Z \sim N(0, 1)$$. This $$p$$ is known as *p-value* of the test. 
 
-![fig-3](/assets/img/p_value.jpg?style=centerme)
+![fig-3]({{ site.baseurl }}/assets/img/p_value.jpg?style=centerme)
 
 In the above figure, *blue* region is the *p-value* and the *red* region is the $$\alpha$$. Note that, the realization of the statistic i.e. $$z^{\star}$$ is larger than the cut-off, that is why the p-value is smaller than $$\alpha$$.
 
