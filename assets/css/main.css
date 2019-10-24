@@ -39,7 +39,7 @@ footer ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FFF5EE;
+    background-color: rgba(148, 168, 168, 0.993);
 }
   
 footer li {
@@ -48,17 +48,17 @@ footer li {
   
 footer li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
 footer li a:hover:not(.active) {
-    background-color: #4CAF50;
+    background-color: #6A5ACD;
 }
 
 img[src$="centerme"] {
     display: block;
     margin: 0 auto;
-  }
+}
