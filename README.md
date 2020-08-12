@@ -1,3 +1,3 @@
 # Git Repository for Statistics Blog
 
-Follow the [link](https://koushikkhan.github.io/stat)
+Follow this [link](https://koushikkhan.github.io/stat) to visit the webpage.

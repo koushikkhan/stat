@@ -4,4 +4,4 @@ title: Resume
 use_math: false
 ---
 
-Download my resume as [pdf]({{ site.baseurl }}/assets/pdf/latest_resume_koushik_khan.pdf).
+My latest resume is available as pdf [over here]({{ site.baseurl }}/assets/pdf/latest_resume_koushik_khan.pdf).
